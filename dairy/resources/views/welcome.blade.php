@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title >Milkyway Dairy - Home</title>
-        <link rel="icon" href="/favicon-32x32.png" type="image/x-icon">
-    
+    <title>Milkyway Dairy - Home</title>
+    <link rel="icon" href="/favicon-32x32.png" type="image/x-icon">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-    
+
+    <h1> K xa ho kta kti ho</h1>
 
 
 
-    
     <!-- Navigation Bar -->
 
-    
+
     <nav class="navbar navbar-expand-lg navbar-light bg-success">
         <div class="container">
-            <a  class="navbar-brand text-white" href="index.html"><img src="/logo11.jpg" alt="">Milkyway Dairy</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand text-white" href="index.html"><img src="/logo11.jpg" alt="">Milkyway Dairy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -49,7 +51,7 @@
             </div>
         </div>
     </nav>
-    
+
     <!-- Carousel/Sliding Images -->
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -70,8 +72,9 @@
         <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
             <div class="about-text mb-4 mb-md-0">
                 <h2 class="text-success">About Us</h2>
-                <p>Welcome to Milkyway Dairy, where we offer the finest dairy products sourced from organic farms. 
-                   Our commitment to quality ensures that you receive the freshest and most nutritious dairy items every day.</p>
+                <p>Welcome to Milkyway Dairy, where we offer the finest dairy products sourced from organic farms.
+                    Our commitment to quality ensures that you receive the freshest and most nutritious dairy items
+                    every day.</p>
             </div>
             <div class="about-image">
                 <img src="images/about-image.jpg" class="img-fluid rounded" alt="About Us Image">
@@ -87,4 +90,5 @@
     <!-- Bootstrap JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
